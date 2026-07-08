@@ -1,0 +1,10 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BeNovel logo mark</title>
+  <desc id="desc">A book-like BeNovel mark with a warm accent page.</desc>
+  <rect width="96" height="96" rx="22" fill="#315F78"/>
+  <path d="M25 25.5C25 22.4624 27.4624 20 30.5 20H47C52.5228 20 57 24.4772 57 30V76H31C27.6863 76 25 73.3137 25 70V25.5Z" fill="#FFF8EC"/>
+  <path d="M43 20H62.5C67.1944 20 71 23.8056 71 28.5V64C71 70.6274 65.6274 76 59 76H43V20Z" fill="#F1C7B6"/>
+  <path d="M37 35H58" stroke="#17394B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M37 49H61" stroke="#17394B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M37 63H53" stroke="#17394B" stroke-width="5" stroke-linecap="round"/>
+</svg>
