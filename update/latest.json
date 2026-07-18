@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-beta",
+  "notes": "Signed BeNovel beta installers and updater artifacts.",
+  "pub_date": "2026-07-18T18:27:11.055Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3JGTnpYZE8wOG1NQ0hZT2NBUGpNaTlWeVplbnl2YVZqUk1uMlNLaWZ4Y1BBa09WNVVmTFp0dC9IYzNMUGs0VXVTTkNSMEhqR2RvMnVVcDU4cXB1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk4MzgwCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhX3g2NC1zZXR1cC5leGUKKzVSb2tPZDZJU3RVV3FEYWgwRHUrMTRsZHdCSDkxZGxFWUlMVDM5RmRhSEFNWXNyWWxSUVltNWtsN2ZIWmxhV3ZtblpmRkt2cmRCa0packRPWHpEQnc9PQo=",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_1.0.0-beta_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3JGTnpYZE8wOG1NQ0hZT2NBUGpNaTlWeVplbnl2YVZqUk1uMlNLaWZ4Y1BBa09WNVVmTFp0dC9IYzNMUGs0VXVTTkNSMEhqR2RvMnVVcDU4cXB1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk4MzgwCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhX3g2NC1zZXR1cC5leGUKKzVSb2tPZDZJU3RVV3FEYWgwRHUrMTRsZHdCSDkxZGxFWUlMVDM5RmRhSEFNWXNyWWxSUVltNWtsN2ZIWmxhV3ZtblpmRkt2cmRCa0packRPWHpEQnc9PQo=",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_1.0.0-beta_x64-setup.exe"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+    }
+  }
+}
