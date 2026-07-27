@@ -1,31 +1,31 @@
 {
-  "version": "1.0.0-beta",
-  "notes": "Signed BeNovel beta installers and updater artifacts.",
-  "pub_date": "2026-07-18T18:27:11.055Z",
+  "version": "1.0.0-beta.1",
+  "notes": "## 繁體中文\n\n新增可選安裝的離線語音輸入，改善長句輸入與處理提示；首頁會依系統語言顯示新版通知，關閉後仍保留低干擾提醒，並支援深色模式。\n\n## 日本語\n\n必要に応じて導入できるオフライン音声入力を追加し、長い文章の入力と処理状況の表示を改善しました。ホーム画面の更新案内はシステム言語に合わせて表示され、閉じた後も控えめな通知が残り、ダークモードにも対応します。\n\n## English\n\nAdded optional offline voice input and improved long dictation and progress feedback. Update notices now follow the system language, remain available as a quiet home-screen reminder after dismissal, and support dark mode.",
+  "pub_date": "2026-07-27T16:05:56.093Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3JGTnpYZE8wOG1NQ0hZT2NBUGpNaTlWeVplbnl2YVZqUk1uMlNLaWZ4Y1BBa09WNVVmTFp0dC9IYzNMUGs0VXVTTkNSMEhqR2RvMnVVcDU4cXB1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk4MzgwCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhX3g2NC1zZXR1cC5leGUKKzVSb2tPZDZJU3RVV3FEYWgwRHUrMTRsZHdCSDkxZGxFWUlMVDM5RmRhSEFNWXNyWWxSUVltNWtsN2ZIWmxhV3ZtblpmRkt2cmRCa0packRPWHpEQnc9PQo=",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_1.0.0-beta_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3Z5S1dpbURkYjhteExrT3NWc2Z6TXYxM0FlYXVVcG1IaVF4TytMMlBaSXJSYnU1aHdHaFNRcWU2YlFsZGZrdkVXaGZ0aTFwNThmaWNJM09obG1KcVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY3NDkxCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhLjFfeDY0LXNldHVwLmV4ZQpVbDIyWGVaWXUrSGVNWk5XUDFJN1NRRlZKaTc2a3pXODlaSktUQVRtZkpOWVNXbCtkSXJzQXU5dkt6SzJMSGZlNmNXYWpNTHVvTVlJUTlQbGF5elpBZz09Cg==",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_1.0.0-beta.1_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3JGTnpYZE8wOG1NQ0hZT2NBUGpNaTlWeVplbnl2YVZqUk1uMlNLaWZ4Y1BBa09WNVVmTFp0dC9IYzNMUGs0VXVTTkNSMEhqR2RvMnVVcDU4cXB1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk4MzgwCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhX3g2NC1zZXR1cC5leGUKKzVSb2tPZDZJU3RVV3FEYWgwRHUrMTRsZHdCSDkxZGxFWUlMVDM5RmRhSEFNWXNyWWxSUVltNWtsN2ZIWmxhV3ZtblpmRkt2cmRCa0packRPWHpEQnc9PQo=",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_1.0.0-beta_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3Z5S1dpbURkYjhteExrT3NWc2Z6TXYxM0FlYXVVcG1IaVF4TytMMlBaSXJSYnU1aHdHaFNRcWU2YlFsZGZrdkVXaGZ0aTFwNThmaWNJM09obG1KcVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY3NDkxCWZpbGU6QmVOb3ZlbF8xLjAuMC1iZXRhLjFfeDY0LXNldHVwLmV4ZQpVbDIyWGVaWXUrSGVNWk5XUDFJN1NRRlZKaTc2a3pXODlaSktUQVRtZkpOWVNXbCtkSXJzQXU5dkt6SzJMSGZlNmNXYWpNTHVvTVlJUTlQbGF5elpBZz09Cg==",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_1.0.0-beta.1_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y29heU4zNlJ6N0xmRmZpYzlGbFllQ2kyL3BUaDVrL0JSRVlqR2t3UXc2S2Q2Wm5DSFNkbGV3am1vZ3plWDJhYmZiVU4wR1dRK1NZOVZmZlpXZmtNK0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY4MzQ1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmNIZmswNWNxcHFvbVVCbFk4Rkt5b0dhekxHVk5iNjN6TjVPMnZLckJjMnNNeHZEOUhGS2lCQytOQ1A1anY3Wks0Mnc2SzFHeDJmQ0VIM2FoOGJIUUFRPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y29heU4zNlJ6N0xmRmZpYzlGbFllQ2kyL3BUaDVrL0JSRVlqR2t3UXc2S2Q2Wm5DSFNkbGV3am1vZ3plWDJhYmZiVU4wR1dRK1NZOVZmZlpXZmtNK0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY4MzQ1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmNIZmswNWNxcHFvbVVCbFk4Rkt5b0dhekxHVk5iNjN6TjVPMnZLckJjMnNNeHZEOUhGS2lCQytOQ1A1anY3Wks0Mnc2SzFHeDJmQ0VIM2FoOGJIUUFRPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y29heU4zNlJ6N0xmRmZpYzlGbFllQ2kyL3BUaDVrL0JSRVlqR2t3UXc2S2Q2Wm5DSFNkbGV3am1vZ3plWDJhYmZiVU4wR1dRK1NZOVZmZlpXZmtNK0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY4MzQ1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmNIZmswNWNxcHFvbVVCbFk4Rkt5b0dhekxHVk5iNjN6TjVPMnZLckJjMnNNeHZEOUhGS2lCQytOQ1A1anY3Wks0Mnc2SzFHeDJmQ0VIM2FoOGJIUUFRPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y3ZEdU9OcU9ybXgxaGNKUFhHRitxbVg5TWxmTCtoamdpMHMyOVJYbEFWWDJBOUhYR2ZCYk5UTFNqVzVTSCt3amhWOHRFU09PT1VENXpMN0FNanhIT0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0Mzk5MjI1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmZxcmtJNWZ1eTZqNUR3VUlidnAxK2JERDRETFFGMElvdmpxRDZSZTZPY1NZYWt3VjZ1bXBjNEhIcHc1MlVJYzA1dkthbG1WempqZ1hPdVdRbjJIbEJnPT0K",
-      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta/BeNovel_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc0RpWmlYaXF1Y29heU4zNlJ6N0xmRmZpYzlGbFllQ2kyL3BUaDVrL0JSRVlqR2t3UXc2S2Q2Wm5DSFNkbGV3am1vZ3plWDJhYmZiVU4wR1dRK1NZOVZmZlpXZmtNK0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MTY4MzQ1CWZpbGU6QmVOb3ZlbC5hcHAudGFyLmd6CmNIZmswNWNxcHFvbVVCbFk4Rkt5b0dhekxHVk5iNjN6TjVPMnZLckJjMnNNeHZEOUhGS2lCQytOQ1A1anY3Wks0Mnc2SzFHeDJmQ0VIM2FoOGJIUUFRPT0K",
+      "url": "https://github.com/benovel-app/benovel-site/releases/download/app-v1.0.0-beta.1/BeNovel_universal.app.tar.gz"
     }
   }
 }
