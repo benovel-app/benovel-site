@@ -3,6 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+  release:
+    types: [published]
   workflow_dispatch:
 
 permissions:
@@ -16,12 +18,70 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'release' || startsWith(github.event.release.tag_name, 'app-v')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Resolve latest app release
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_RELEASE_URL: ${{ github.event.release.html_url }}
+        run: |
+          if [ "$EVENT_NAME" = "release" ]; then
+            release_url="$EVENT_RELEASE_URL"
+          else
+            release_url="$(
+              gh api "repos/${GITHUB_REPOSITORY}/releases?per_page=100" \
+                --jq '[.[] | select(.draft == false and (.tag_name | startswith("app-v")))] | sort_by(.published_at) | last | .html_url'
+            )"
+          fi
+
+          if [ -z "$release_url" ] || [ "$release_url" = "null" ]; then
+            echo "::error::No published app-v* release was found."
+            exit 1
+          fi
+
+          echo "url=$release_url" >> "$GITHUB_OUTPUT"
+
+      - name: Point download pages to latest release
+        env:
+          LATEST_RELEASE_URL: ${{ steps.release.outputs.url }}
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          release_url = os.environ["LATEST_RELEASE_URL"]
+          pattern = re.compile(
+              r"https://github\.com/benovel-app/benovel-site/releases/tag/app-v[^\"'<>\s]+"
+          )
+          pages = (
+              Path("download/index.html"),
+              Path("en/download/index.html"),
+              Path("ja/download/index.html"),
+          )
+
+          for page in pages:
+              source = page.read_text(encoding="utf-8")
+              updated, replacements = pattern.subn(release_url, source)
+              if replacements != 1:
+                  raise SystemExit(
+                      f"{page}: expected one app release link, found {replacements}"
+                  )
+              page.write_text(updated, encoding="utf-8")
+              print(f"{page}: {release_url}")
+          PY
+
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
