@@ -74,6 +74,10 @@ jobs:
           for page in pages:
               source = page.read_text(encoding="utf-8")
               updated, replacements = pattern.subn(release_url, source)
+              # Disabled downloads intentionally have no app release link.
+              if replacements == 0:
+                  print(f"{page}: no app release link; leaving page unchanged")
+                  continue
               if replacements != 1:
                   raise SystemExit(
                       f"{page}: expected one app release link, found {replacements}"
